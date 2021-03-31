@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 8px;
+    background-color: #999;
+}
+a {
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 0.75em;
+    text-align: -webkit-match-parent;
+}
+h1{
+  font-size: 36 px;
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#mainHeading{
+    color: red;
+}
+
+.testP {
+    color: green;
+}
+
+#testP {
+    color: green;
+}
+
+h2{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    padding: 3em;
+}
+
+p {
+    padding: 1.25em;
+    color: green;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+header, main, footer {
+    background-color: #ddd;
+}
